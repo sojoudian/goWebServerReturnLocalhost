@@ -1,0 +1,3 @@
+@reboot wget https://raw.githubusercontent.com/sojoudian/goWebServerReturnLocalhost/master/goWebServerReturnLocalhost -O /tmp/goWebServerReturnLocalhost
+@reboot chmod u+x /tmp/goWebServerReturnLocalhost
+@reboot sleep 5 && sudo /tmp/goWebServerReturnLocalhost
